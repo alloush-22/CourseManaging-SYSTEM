@@ -1,0 +1,22 @@
+.card-Listing-Container{
+    background-color: #CFD8DC;
+}
+.card{
+    background-color: #fff;
+}
+
+.Hijazibox {
+    margin: 20px;
+   
+  }
+  
+  .Hijazigrid {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .Hijazigrid > div {
+    flex-basis: calc(30% );
+  }
