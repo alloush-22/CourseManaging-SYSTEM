@@ -1,0 +1,13 @@
+
+
+@media only screen and (max-width: 600px) {
+    .Row{
+        margin: 0px !important;
+    }
+  }
+
+
+
+  .Row{
+    margin-left: 250px;
+  }

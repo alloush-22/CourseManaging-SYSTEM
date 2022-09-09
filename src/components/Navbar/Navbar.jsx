@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
 
 function CollapsibleExample() {
   return (
@@ -26,7 +27,10 @@ function CollapsibleExample() {
             </NavDropdown> */}
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">Home</Nav.Link>
+            <Link to="/LandingPage">
+              <Nav.Link href="#deets">Home</Nav.Link>
+            </Link>
+            
             <Nav.Link href="#deets">Course Lissting</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
               SighnIn
